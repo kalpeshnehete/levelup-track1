@@ -1,41 +1,104 @@
 <html>
+  <head>
+<title>Tracker-Dashboard</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<head>
-    <title>Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-
-
 <body>
-    <div class="topnav">
-        <a class="active" href="dashboard.html">Tracker</a>
-        <input type="text" placeholder="Search..">
+<header>
+  <nav id="menu">
+    <ul>
+      <li><a href="">Tracker</a></li>
+    </ul>
+  </nav>
+
+  <div id="search">
+    <form>
+    <input type="text" placeholder="Search your issues here">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  </div>
+
+  <nav id="social-links">
+    <ul>
+      <li><a href=""><i class="fa fa-bell-o"></i></a></li>
+      <li><a href=""><i class="fa fa-user-circle"></i></a></li>
+  </ul>
+  </nav>
+</header>
+
+<div id="main">
+  <aside class="">
+    <ul>
+      <li><a href="">Dashboard</a></li>
+      <li><a href="create.html">Create</a></li>
+      <li><a href="issues.html">Issues</a></li>
+    </ul>
+  </aside>
+  <article class="">
+    <div class ="dash">
+      <h2>Dashboard</h2>
+      <div class="dash-box">
+        <img src="images/graph.jpg" alt="">  
+      </div>  </div>  
+
+      <h2>Issues Info</h2>
+      <div class="services-container">
+        <div class="service-box">
+        <div class="service-title">
+          <h3>High priority</h3>
+          <ul>
+            <li><h4>Issue 1<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?<p>
+              <li><h4>Issue 2<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?</p>
+              <li><h4>Issue 3<h4></li>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?<p>
+          </ul>
+        </div>
+        <div class="call-to-action">
+          <a href="">View all</a>
+        </div>
+      </div>
+         
+      <div class="service-box">
+        <div class="service-title">
+          <h3>Recently Updated Issue</h3>
+          <ul>
+            <li><h4>Issue 1<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?<p>
+              <li><h4>Issue 2<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?</p>
+          </ul>
+        </div>
+        <div class="call-to-action">
+          <a href="">View all</a>
+        </div>
       </div>
 
-
-      <div class='some-page-wrapper'>
-        <div class='row'>
-          <div class='column'>
-            <div class='blue-column'>
-                <nav>
-                    <ul class="menu">
-                        <li class="item"><a href="">Dashboard</a></li><br><br>
-                        <li class="item"><a href="issues.html">Issues</a></li><br><br>
-                        <li class="item"><a href="create.html">Create</a></li>
-                    </ul>
-                </nav>
-            </div> 
-          </div>
-          <div class='column'>
-          <h1>Dashboard</h1>
+      <div class="service-box">
+        <div class="service-title">
+          <h3>All Issues</h3>
+          <ul>
+            <li><h4>Issue 1<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?<p>
+              <li><h4>Issue 2<h4></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?</p>
+              <li><h4>Issue 3<h4></li>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facilis?<p>
+           
+          </ul>
         </div>
+        <div class="call-to-action">
+          <a href="">View all</a>
         </div>
-
       </div>
+      </div>
+  </article>
+</div>
 
-      
-
-
+<footer>Made by Me</footer>
+  
 </body>
-
 </html>
