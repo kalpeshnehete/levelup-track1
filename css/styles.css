@@ -39,13 +39,11 @@ header a{
   font-size: 25px;
 }
 #search input[type=text] {
-  float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
-  margin-left: 60px;
   font-size: 17px;
-  width: 960px;
+  width: 500px;
 }
 
 .logo li{
@@ -361,4 +359,16 @@ justify-content: space-between;
 }
 .c{
   padding: 10px;
+}
+
+
+/*  Media queries  */
+
+@media screen and (max-width:850px){
+  .service-box{
+    flex-basis: 48px;
+  }
+  .aside{
+    flex:0 0 30vw;
+  }
 }
