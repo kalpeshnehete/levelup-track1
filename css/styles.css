@@ -1,3 +1,4 @@
+
 *{
   box-sizing:border-box;
 }
@@ -149,14 +150,12 @@ padding:0px;
 
 
 .call-to-action {
-  align-self:flex-start ;
+  align-self:flex-end;
   margin-top: auto;
 }
 
 .call-to-action a{
-  background: gray;
-  border: 2px solid transparent;
-  color: #fff;
+  color: rgb(145, 173, 221);
   padding: 8px 13px;
   display: block;
 }
@@ -188,8 +187,21 @@ border: none;
 border-radius: 4px;
 cursor: pointer;
 }
+.forms input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;      
+}
 
+.maingridform {
+  display: grid;
+  grid-template-columns: auto auto ;
 
+}
 
 
 
@@ -249,4 +261,104 @@ justify-content: space-between;
 }
 .filter2 img{
   margin-top: 20px;
+}
+/***********************************************************************************************/
+.parent1{
+  display:flex;
+  justify-content:space-between;
+  border:1px solid #eee;
+  background: white;
+  flex-basis: 32%;
+  padding: 0px;
+}
+.parent1 li{
+  text-decoration: none;
+  list-style: none;
+}
+.chil1 li h5{
+  color: rgb(180, 189, 209);
+}
+.chil2 li h5{
+  color: rgb(71, 71, 71);
+}
+
+
+.a{
+  background-color: white;
+}
+
+
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: -80px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.griditem {
+  background-color: rgb(226, 225, 241);
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.gridcontainer2{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+
+.issueinfocontainer{
+  display:flex;
+  justify-content: space-around;
+}
+
+.desc{
+  display: flex;
+  justify-content: space-between;
+}
+.desc2{
+  margin-right: 70px;
+}
+
+.fm1 input[type=text] {
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+.fm2 input[type=file] {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+
+.bt1{
+  background-color: rgb(226, 225, 241);
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.d{
+  display: flex;
+  justify-content: space-between;
+}
+.e{
+  border-bottom: 1px solid grey;
+}
+.f{
+  border-bottom: 1px solid grey;
+
+}
+.c{
+  padding: 10px;
 }
